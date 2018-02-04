@@ -1,0 +1,24 @@
+<button ng-click="getTable()">
+        tasks
+    </button>
+
+
+
+<table ng-if="table">
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>desctiprion</th>
+            <th>who make it?</th>
+        </tr>
+    </thead>
+    <tr ng-repeat="x in table">
+        <td>{{ x.id }}</td>
+        <td>{{ x.name }}</td>
+        <td>{{ x.deck }}</td>
+        <td>{{ x.makeit }}</td>
+
+
+    </tr>
+</table>

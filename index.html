@@ -1,0 +1,72 @@
+<html>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+<script src="./node_modules/angular/angular.js"></script>
+<script src="./node_modules/angular-route/angular-route.js"></script>
+<script src="./config.js"></script>
+<script src="family/familyController.js"></script>
+<script src="task/taskController.js"></script>
+<script src="./mainController.js"></script>
+<script src="./mainController.js"></script>
+<link rel="stylesheet" href="style.css">
+
+
+
+
+<head>
+
+    <body ng-app="app">
+
+        <!-- <a href="/#!/familypage">  family </a>
+        <a href="/#!/taskpage"> tasks</a> -->
+        <div ng-controller="mainController">
+
+            <div class="jumbotron text-center">
+                <h1>welcome to task4 john-bryc </h1>
+                <p>family - tasks </p>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+
+                        <h3>family </h3>
+                        </a>
+                        <a href="/#!/familypage"> family list </a>
+                        <p>(gethomemembers)</p>
+
+                    </div>
+                    <div class="col-sm-4">
+
+                        <h3> Todo List</h3>
+                        </a>
+                        <a href="/#!/taskpage"> getTodoList </a>
+                        <p>(getTodoList)</p>
+                        <a href="/#!/addtask">
+                            <p>add task todo</p>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3>how its work</h3>
+                        <p>api docs</p>
+                        <p>Ut enim ad..</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="footer">
+                <p> {{massage}} </p>
+            </div>
+
+
+            </h1>
+
+            <ng-view> </ng-view>
+
+
+    </body>
+</head>
+
+</html>

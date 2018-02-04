@@ -1,0 +1,39 @@
+body {
+    background-color: #7fbeff;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #004eff;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    font-family: heebo, tahoma;
+    font-size: 20px;
+}
+
+.jumbotron.text-center {
+    background-color: #80b2e6;
+}
+
+td {
+    border: 1px solid;
+}
+
+th {
+    border: 1px solid;
+}
+
+tr {
+    border: 1px solid;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    font-size: 32px;
+    margin: 30;
+}
